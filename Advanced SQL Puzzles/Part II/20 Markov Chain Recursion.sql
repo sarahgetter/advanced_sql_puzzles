@@ -129,7 +129,8 @@ GROUP BY [Description]
 ORDER BY 1;
 GO
 
--- alternate approach
+-- Alternate approach
+-- Adds visualization
 -- Display proportions of Rainy vs Sunny days
 -- SELECT 
 --    [Description],
@@ -138,3 +139,4 @@ GO
 -- FROM #ProbabilitiesFinal
 -- GROUP BY [Description]
 -- ORDER BY [Description];
+
