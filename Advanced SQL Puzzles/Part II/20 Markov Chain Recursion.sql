@@ -139,4 +139,3 @@ GO
 -- FROM #ProbabilitiesFinal
 -- GROUP BY [Description]
 -- ORDER BY [Description];
-
