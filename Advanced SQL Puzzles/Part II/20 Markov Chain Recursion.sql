@@ -128,3 +128,13 @@ FROM    #ProbabilitiesFinal
 GROUP BY [Description]
 ORDER BY 1;
 GO
+
+-- alternate approach
+-- Display proportions of Rainy vs Sunny days
+-- SELECT 
+--    [Description],
+--    COUNT(*) AS [Count],
+--    ROUND(100.0 * COUNT(*) / SUM(COUNT(*)) OVER (), 2) AS [Percent]
+-- FROM #ProbabilitiesFinal
+-- GROUP BY [Description]
+-- ORDER BY [Description];
